@@ -1,0 +1,21 @@
+echo "External commands set 8"
+echo " "
+
+./showsishenv
+
+Echo
+echo test commands search of PATH
+ls
+ls /bin
+ls -Flas /bin
+ls .
+ls ..
+
+echo "add current directory to PATH"
+export PATH $PATH
+./showsishenv
+
+forever
+
+echo " "
+echo "External commands 8 finished"

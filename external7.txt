@@ -1,0 +1,15 @@
+echo "External commands set 7"
+echo " "
+
+echo "testing environment commands"
+echo "test commands search of PATH"
+ls
+ls /bin
+ls -Flas /bin
+ls .
+ls ..
+
+./showenv
+
+echo " "
+echo "External commands 7 finished"	

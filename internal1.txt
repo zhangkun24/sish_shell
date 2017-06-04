@@ -1,0 +1,37 @@
+echo "Internal commands set 1"
+echo " "
+
+set foo bar
+set stop go
+show foo
+show stop
+echo " "
+unset stop
+show foo stop
+
+export sky way
+export ground trail
+environ
+echo" "
+unexport ground
+environ
+
+dir
+chdir .
+dir
+chdir ..
+dir
+chdir /
+dir
+chdir bin
+dir
+
+history
+history 3
+history 11
+repeat
+repeat 23
+
+echo " "
+echo "Internal commands set 1 finished"
+

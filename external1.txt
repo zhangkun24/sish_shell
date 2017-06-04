@@ -1,0 +1,19 @@
+echo "External commands set 1"
+echo " "
+
+/bin/ls
+/bin/ls /bin
+/bin/ls -Flas /bin
+/bin/ls .		
+/bin/ls ..		
+
+/bin/grep mars A-Trip-To-Mars.txt
+/bin/wc forever.cpp	
+/bin/ps -a		
+
+touch touch.file1.txt
+show $?	
+
+
+echo " "
+echo "External commands set 1 finished"

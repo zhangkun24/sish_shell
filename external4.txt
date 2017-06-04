@@ -1,0 +1,20 @@
+echo "External commands set 4"
+echo " "
+
+wc A-Trip-To-Mars.txt > wcount.txt
+cat wcount > catcount.txt
+cat < wcount.txt
+cat < catcount.txt > catcat.txt
+cat catcat.txt
+
+ls > ls.txt
+cat ls.txt
+ps > ps.txt
+cat ps.txt
+cat < ls.txt
+cat < ps.txt
+cat < ls.txt > catls.txt
+cat catls.txt
+
+echo " "
+echo "External commands 4 finished"

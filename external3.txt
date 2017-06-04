@@ -1,0 +1,24 @@
+echo "External commands set 3"
+echo " "
+
+ls -Flas | cat !
+ls -Flas | wc !
+ls -Flas | grep sish !
+
+ps -aef | wc !
+ps -aef | grep root !
+ps -aef | cat !
+
+ls -Flas | wc | cat !
+ps -aef | grep root | wc !
+
+ls -Flas | grep sish | cat !
+ps -aef | cat | wc !
+grep Mars A-Trip-To-Mars.txt | wc | cat !
+
+ls -Flas | grep sish | wc | cat !
+ps -aef | grep root | wc | cat !
+cat A-Trip-To-Mars.txt | grep Mars | wc | cat !
+
+echo " "
+echo "External commands 2 finished"
